@@ -3,5 +3,5 @@
 class A
 {
 public:
-    void iLookLikeThis();
+    void iLookLikeThat();
 };
