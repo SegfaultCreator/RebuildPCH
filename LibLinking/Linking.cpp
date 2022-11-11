@@ -1,6 +1,7 @@
 #include "Linking.hpp"
 
 #include <memory>
+#include <iostream>
 
 Z::Z()
 {
@@ -9,7 +10,7 @@ Z::Z()
 
 void Z::doSomething()
 {
-
+    std::cout << "Test" << std::endl;
 }
 
 void Z::setVar(int in_var)
